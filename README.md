@@ -6,4 +6,4 @@ Run
 
 Url to test
 -------
-http://localhost:8181/
+http://localhost:8181/test
