@@ -1,0 +1,42 @@
+.mvn
+# eclipse
+.classpath
+.project
+.settings/**
+.tern-project
+.factorypath
+
+# maven
+target/**
+
+# sublime
+*.sublime-project
+*.sublime-workspace
+
+# generated files
+src/main/resources/static/dist/**
+src/main/resources/typings/**
+src/main/resources/node_modules/**
+bin/**
+
+# ignore .git folder of the submodule
+src/main/ui-resources/.git/**
+src/main/ui-resources/typings/**
+src/main/ui-resources/node_modules/**
+/target
+*.pdf
+
+# netbeans
+dump*
+
+# MacOS
+.DS_Store
+
+# intellij
+.idea/**
+**.iml
+
+# runtime
+USER_HOME_IS_UNDEFINED/**
+login-service.ipr
+login-service.iws
